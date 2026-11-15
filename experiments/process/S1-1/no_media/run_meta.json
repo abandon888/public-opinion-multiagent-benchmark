@@ -1,0 +1,22 @@
+{
+  "topic_id": "S1-1",
+  "method": "no_media",
+  "repeat": 0,
+  "task_id": "7507782546a5e1bcf17206fcf53b2a48",
+  "ER": 83.74419436215902,
+  "FA": 82.13669407256319,
+  "TR": 82.26769045978705,
+  "minutes": 6.64741809152493,
+  "tokens": 48.774214230557284,
+  "media_seconds": 316.0135659870124,
+  "query_seconds": 212.91647702901304,
+  "calls": 30,
+  "trace_media_sum": 316.0135659870124,
+  "trace_query_sum": 212.91647702901304,
+  "claims": 16,
+  "correct_claims": 13,
+  "numeric_claims": 12,
+  "traceable_numeric": 10,
+  "matched_events": 8,
+  "gold_events": 10
+}

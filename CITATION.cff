@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Public Opinion Multi-Agent Benchmark"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Wang
+    given-names: Yuhan
+  - family-names: Jiang
+    given-names: Yun
+  - family-names: Chen
+    given-names: FengFeng
+repository-code: "https://github.com/abandon888/public-opinion-multiagent-benchmark"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-03-14"

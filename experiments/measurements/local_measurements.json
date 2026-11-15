@@ -1,0 +1,173 @@
+{
+  "provenance": "measured_local_components_on_synthetic_inputs",
+  "python": "3.12.14",
+  "platform": "macOS-14.8.1-arm64-arm-64bit",
+  "warmup": 3,
+  "repeats": 30,
+  "network_calls": 0,
+  "results": {
+    "cache_False": {
+      "milliseconds": {
+        "mean": 0.11228046690424283,
+        "sd": 0.003071723733887736,
+        "median": 0.11114550579804927,
+        "n": 30
+      },
+      "calls": 300,
+      "requests": 300
+    },
+    "cache_True": {
+      "milliseconds": {
+        "mean": 2.3558943978666016,
+        "sd": 0.19641015725221572,
+        "median": 2.2839369921712205,
+        "n": 30
+      },
+      "calls": 100,
+      "requests": 300
+    },
+    "materials_False": {
+      "milliseconds": {
+        "mean": 0.42498886565833044,
+        "sd": 0.030548342078361275,
+        "median": 0.4151250032009557,
+        "n": 30
+      },
+      "processed": 300,
+      "checksum": 9270
+    },
+    "materials_True": {
+      "milliseconds": {
+        "mean": 0.8304194324106599,
+        "sd": 0.06439574953777293,
+        "median": 0.8034585043787956,
+        "n": 30
+      },
+      "processed": 100,
+      "checksum": 3090
+    },
+    "trace_False": {
+      "milliseconds": {
+        "mean": 0.012627730999762813,
+        "sd": 0.00020034085815120035,
+        "median": 0.012540986062958837,
+        "n": 30
+      },
+      "spans_per_batch": 100,
+      "bytes_per_span": 0
+    },
+    "trace_True": {
+      "milliseconds": {
+        "mean": 13.205674997880124,
+        "sd": 0.3279754504623025,
+        "median": 13.134729000739753,
+        "n": 30
+      },
+      "spans_per_batch": 100,
+      "bytes_per_span": 649.1042424242424
+    },
+    "faults": {
+      "started_spans": 120,
+      "closed_spans": 90,
+      "incomplete_spans": [
+        "incomplete-0",
+        "incomplete-1",
+        "incomplete-10",
+        "incomplete-11",
+        "incomplete-12",
+        "incomplete-13",
+        "incomplete-14",
+        "incomplete-15",
+        "incomplete-16",
+        "incomplete-17",
+        "incomplete-18",
+        "incomplete-19",
+        "incomplete-2",
+        "incomplete-20",
+        "incomplete-21",
+        "incomplete-22",
+        "incomplete-23",
+        "incomplete-24",
+        "incomplete-25",
+        "incomplete-26",
+        "incomplete-27",
+        "incomplete-28",
+        "incomplete-29",
+        "incomplete-3",
+        "incomplete-4",
+        "incomplete-5",
+        "incomplete-6",
+        "incomplete-7",
+        "incomplete-8",
+        "incomplete-9"
+      ],
+      "completeness": 0.75,
+      "expected_incomplete_detected": true
+    }
+  },
+  "scheduler_replays": [
+    {
+      "eta": 3,
+      "delta": 120,
+      "window": 600,
+      "calls": 9,
+      "mean_wait": 45,
+      "pending": 0,
+      "expired": 0
+    },
+    {
+      "eta": 5,
+      "delta": 120,
+      "window": 600,
+      "calls": 9,
+      "mean_wait": 75,
+      "pending": 0,
+      "expired": 0
+    },
+    {
+      "eta": 8,
+      "delta": 120,
+      "window": 600,
+      "calls": 9,
+      "mean_wait": 75,
+      "pending": 0,
+      "expired": 0
+    },
+    {
+      "eta": 5,
+      "delta": 60,
+      "window": 600,
+      "calls": 13,
+      "mean_wait": 37.5,
+      "pending": 1,
+      "expired": 0
+    },
+    {
+      "eta": 5,
+      "delta": 180,
+      "window": 600,
+      "calls": 5,
+      "mean_wait": 90,
+      "pending": 2,
+      "expired": 0
+    },
+    {
+      "eta": 5,
+      "delta": 120,
+      "window": 300,
+      "calls": 9,
+      "mean_wait": 75,
+      "pending": 0,
+      "expired": 0
+    },
+    {
+      "eta": 5,
+      "delta": 120,
+      "window": 900,
+      "calls": 9,
+      "mean_wait": 75,
+      "pending": 0,
+      "expired": 0
+    }
+  ]
+}

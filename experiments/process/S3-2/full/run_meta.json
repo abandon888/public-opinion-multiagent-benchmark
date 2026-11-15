@@ -1,0 +1,22 @@
+{
+  "topic_id": "S3-2",
+  "method": "full",
+  "repeat": 0,
+  "task_id": "c56369d122d0488a063af440e5e7813f",
+  "ER": 86.62503999146499,
+  "FA": 83.78071917176067,
+  "TR": 64.91981452832005,
+  "minutes": 8.51076977857563,
+  "tokens": 53.84961502466025,
+  "media_seconds": 187.50498613501546,
+  "query_seconds": 305.1853652678161,
+  "calls": 13,
+  "trace_media_sum": 187.50498613501546,
+  "trace_query_sum": 305.1853652678161,
+  "claims": 17,
+  "correct_claims": 14,
+  "numeric_claims": 10,
+  "traceable_numeric": 6,
+  "matched_events": 11,
+  "gold_events": 13
+}
