@@ -1,0 +1,7 @@
+hypothesis,criterion,observation,conclusion
+H1,ER高于B2,高0.1个百分点，小于标准差,未支持
+H1,FA不低于B2,差值为0.0个百分点,待非劣效检验
+H2,ER、FA不劣于B4,分别低0.3和0.5个百分点,待非劣效检验
+H2,读取量低于B4,token减少8.8%（间接指标）,间接支持
+H3,端到端耗时低于B5,9.1 min，高于B5的8.5 min,未支持
+H3,token较B2增量不超过20%,减少2.8%,支持
